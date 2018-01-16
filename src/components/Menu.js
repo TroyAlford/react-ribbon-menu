@@ -4,7 +4,7 @@ import MenuItem from './MenuItem';
 const Menu = ({ title, menuItems }) => (
   <ul className="menu">
     {menuItems.map((menuItem) =>
-      <MenuItem {...menuItem} />
+      <MenuItem key={menuItem.text} {...menuItem} />
     )}
     <div className="title">{title}</div>
     {styles}

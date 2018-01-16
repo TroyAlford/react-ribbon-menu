@@ -1,8 +1,7 @@
 import React from 'react';
 import Menu from './Menu';
-import menus from '../data/Data.json';
 
-const RibbonMenu = () => (
+const RibbonMenu = ({ menus }) => (
   <div className="ribbon-menu-container">
     <div className="ribbon-menu">
       {menus.map(({ title, menuItems }) =>
