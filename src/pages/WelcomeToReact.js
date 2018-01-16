@@ -11,8 +11,8 @@ export default () =>
         <p className="App-intro">
             To get started, edit <code>src/App.js</code> and save to reload.
             <ul>
-            <li><Link to="/account">Account</Link></li>
-            <li><Link to="/home">Home</Link></li>
+                <li><Link to="/account">Account</Link></li>
+                <li><Link to="/home">Home</Link></li>
             </ul>
         </p>
     </div>
