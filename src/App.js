@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Redirect, Route, BrowserRouter } from 'react-router-dom';
+import { Route, BrowserRouter } from 'react-router-dom';
 import Account from './pages/Account';
 import Home from './pages/Home';
 import WelcomeToReact from './pages/WelcomeToReact';

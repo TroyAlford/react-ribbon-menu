@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const MenuItem = ({text, iconPath, url}) => (
   <li className="menu-item">
-    <img className="icon" src={iconPath} />
+    <img alt="" className="icon" src={iconPath} />
     {url ? <Link to={url}>{text}</Link> : text}
     {styles}
   </li>
