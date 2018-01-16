@@ -33,6 +33,7 @@ const styles = <style jsx>{`
     top: 0;
     transition: max-height 1s;
     width: 150px;
+    z-index: 999;
   }
 
   ul.menu:hover {
