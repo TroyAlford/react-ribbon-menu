@@ -1,47 +1,47 @@
 [{
    "title": "Tagging",
    "menuItems": [
-     { "text": "Tag Account", "iconPath": "/static/icon.gif" },
-     { "text": "Untag Account", "iconPath": "/static/icon.gif" }
+     { "text": "Tag Account", "iconPath": "/icon.gif" },
+     { "text": "Untag Account", "iconPath": "/icon.gif" }
    ]
 }, {
    "title": "Trading",
    "menuItems": [
-     { "text": "Generate Trades", "iconPath": "/static/icon.gif" },
-     { "text": "Global Liquidate", "iconPath": "/static/icon.gif" }
+     { "text": "Generate Trades", "iconPath": "/icon.gif" },
+     { "text": "Global Liquidate", "iconPath": "/icon.gif" }
    ]
 }, {
    "title": "Performance",
    "menuItems": [
-     { "text": "Perf Update", "iconPath": "/static/icon.gif" },
-     { "text": "Perf Lock", "iconPath": "/static/icon.gif" },
-     { "text": "Perf Unlock", "iconPath": "/static/icon.gif" }
+     { "text": "Perf Update", "iconPath": "/icon.gif" },
+     { "text": "Perf Lock", "iconPath": "/icon.gif" },
+     { "text": "Perf Unlock", "iconPath": "/icon.gif" }
    ]
 }, {
    "title": "'Account Mgmt'",
    "menuItems": [
-       { "text": "Update Metrics", "iconPath": "/static/icon.gif" },
-       { "text": "Bulk Cash", "iconPath": "/static/icon.gif" },
-       { "text": "Bulk Change Product", "iconPath": "/static/icon.gif" },
-       { "text": "Bulk Change Model", "iconPath": "/static/icon.gif" },
-       { "text": "Bulk Approve", "iconPath": "/static/icon.gif" },
-       { "text": "Bulk Reject", "iconPath": "/static/icon.gif" },
-       { "text": "Bulk Replace IVs", "iconPath": "/static/icon.gif" },
-       { "text": "Set Purge Status", "iconPath": "/static/icon.gif" },
-       { "text": "Create", "iconPath": "/static/icon.gif" },
-       { "text": "Change Management", "iconPath": "/static/icon.gif" }
+       { "text": "Update Metrics", "iconPath": "/icon.gif" },
+       { "text": "Bulk Cash", "iconPath": "/icon.gif" },
+       { "text": "Bulk Change Product", "iconPath": "/icon.gif" },
+       { "text": "Bulk Change Model", "iconPath": "/icon.gif" },
+       { "text": "Bulk Approve", "iconPath": "/icon.gif" },
+       { "text": "Bulk Reject", "iconPath": "/icon.gif" },
+       { "text": "Bulk Replace IVs", "iconPath": "/icon.gif" },
+       { "text": "Set Purge Status", "iconPath": "/icon.gif" },
+       { "text": "Create", "iconPath": "/icon.gif" },
+       { "text": "Change Management", "iconPath": "/icon.gif" }
    ]
 }, {
    "title": "Reports",
    "menuItems": [
-     { "text": "Run", "iconPath": "/static/icon.gif" },
-     { "text": "View", "iconPath": "/static/icon.gif" }
+     { "text": "Run", "iconPath": "/icon.gif" },
+     { "text": "View", "iconPath": "/icon.gif" }
    ]
 }, {
     "title": "Pages",
     "menuItems": [
-      { "text": "Account", "iconPath": "/static/icon.gif", "url": "/account" },
-      { "text": "HelloWorld", "iconPath": "/static/icon.gif", "url": "/hello" },
-      { "text": "Home", "iconPath": "/static/icon.gif", "url": "/" }
+      { "text": "Account", "iconPath": "/icon.gif", "url": "/account" },
+      { "text": "HelloWorld", "iconPath": "/icon.gif", "url": "/hello" },
+      { "text": "Home", "iconPath": "/icon.gif", "url": "/" }
     ]
 }]

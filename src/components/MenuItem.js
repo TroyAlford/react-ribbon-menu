@@ -1,11 +1,10 @@
 import React from 'react';
 
-const menuItem = () => {
-  return (
+
+const MenuItem = ({text, iconPath}) =>
     <li className="menuItem">
-
+      <img src={iconPath} />
+      {text}
     </li>
-  );
-}
 
-export default menuItem;
+export default MenuItem;

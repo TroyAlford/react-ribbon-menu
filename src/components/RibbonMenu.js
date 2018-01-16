@@ -1,14 +1,16 @@
 import React from 'react';
-import Menu from './Menu'
+import Menu from './Menu';
+import menus from '../data/Data.json';
 
-const ribbonMenu = () => {
-  return (
+const RibbonMenu = () =>
     <div>
       <div>
-        <Menu />
+        {menus.map(({ title, menuItems }) =>
+        <Menu
+          title={title}
+          menuItems={menuItems}/>
+        )}
       </div>
     </div>
-  );
-}
 
-export default ribbonMenu;
+export default RibbonMenu;

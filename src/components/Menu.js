@@ -1,13 +1,12 @@
 import React from 'react';
 import MenuItem from './MenuItem';
 
-const menu = () => {
-  return (
+const Menu = ({ title, menuItems }) =>
     <ul>
-    <MenuItem />
-    <div></div>
+      {menuItems.map((menuItem) =>
+        <MenuItem {...menuItem} />
+      )}
+      <div>{title}</div>
     </ul>
-  );
-}
 
-export default menu;
+export default Menu;
