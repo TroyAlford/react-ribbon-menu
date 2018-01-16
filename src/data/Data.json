@@ -41,7 +41,7 @@
     "title": "Pages",
     "menuItems": [
       { "text": "Account", "iconPath": "/icon.gif", "url": "/account" },
-      { "text": "HelloWorld", "iconPath": "/icon.gif", "url": "/hello" },
-      { "text": "Home", "iconPath": "/icon.gif", "url": "/" }
+      { "text": "HelloWorld", "iconPath": "/icon.gif", "url": "/" },
+      { "text": "Home", "iconPath": "/icon.gif", "url": "/home" }
     ]
 }]

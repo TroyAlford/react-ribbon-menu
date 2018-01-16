@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const MenuItem = ({text, iconPath}) => (
+const MenuItem = ({text, iconPath, url}) => (
   <li className="menu-item">
     <img className="icon" src={iconPath} />
-    {text}
+    {url ? <Link to={url}>{text}</Link> : text}
     {styles}
   </li>
 );
